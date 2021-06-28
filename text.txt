@@ -1,0 +1,15 @@
+How to update app changes to heroku server 
+1. git add .
+2. git commit -m "<YOUR COMMIT MESSAGE">
+3. heroku login (optional) 
+4. git push heroku master
+
+How to App to Heroku 
+1. define a procfile, inside procfile web: node app.js
+2. git init 
+3. git add .
+4. git commit -m "<YOUR COMMIT MESSAGE">
+5. heroku login
+6. heroku create
+7. git push heroku master
+8. Done!
